@@ -10,7 +10,7 @@ Goals:
 2. re-enforced my knowledge of creating a REST api.
 
 ## Code Snippets
-The following is a snippet for the main get route of this API. It has a simply SQL query, that returns all columns from the table tasks. The response of the query is then sent to user as JSON data type.
+The following is a snippet for the main get route of this API. It has a simple SQL query, that returns all columns from the table tasks. The response of the query is then sent to user as JSON data type.
 ```js
 app.get('/tasks', (req, res)=>{
   db.many(`
